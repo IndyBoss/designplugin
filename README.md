@@ -15,6 +15,10 @@ Voorbeeld Opdrachten:
 
 Naast deze opdrachten staat een checkbox, gebruikers kunnen na het voltooien van de opdracht de checkbox aanvinken. Dagelijks krijgen ze 3 opdrachten, als ze deze allemaal hebben voltooid krijgen ze voor de rest van de dag de override bij het openen van een nieuwe site niet meer te zien.
 
+## Most Lovable Product
+
+Promo video: applicatie al eens live laten zien ( met hulp van premiere pro en onze wireframes, coderen doen we nog niet ze zot )
+
 ## To Do:
 
 - Chrome extension fixen

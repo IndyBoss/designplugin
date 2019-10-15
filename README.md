@@ -28,3 +28,7 @@ Naast deze opdrachten staat een checkbox, gebruikers kunnen na het voltooien van
 	- Todo lijst opvullen met random opdrachten
 	- Todo checkbox checken
 	- Override disabelen bij complete todos
+
+## Author
+
+Made by Indy Bosschem & Lennert Slabbinck - 2019

@@ -1,4 +1,4 @@
-# Super Fancy Slow Web Application van Indy en Lennert ( SFSWAIL ) aka Timed-Out
+# Timed-Out ( Slow Web Application )
 
 ## Idee:
 

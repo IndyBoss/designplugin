@@ -1,11 +1,30 @@
 # Super Fancy Slow Web Application van Indy en Lennert ( SFSWAIL ) aka Timed-Out
 
-## Idea
+## Idee:
 
-Chrome extension die de homepage ( new tab ) override met een mooie foto en een toffe qoute. 
-Je ziet ook een *todo* list met een paar simpele opdrachten zoals bv. *'Ga naar buiten en wandel 10 minuten'* of *'Tel 20 vogels'*.
-Al deze opdrachten hebben iets te maken met offline bezig zijn en motiveren de gebruiker om weg te gaan van hun computer.
+Onze applicatie is een **Chrome extension** ( om te beginnen ) die elke keer dat de gebruiker een nieuwe tab open doet de website override met een mooite foto & toffe quote. Na 120 seconden gaat dit scherm weg en kan de gebruiker de website gewoon gebruiken.
 
-Elke keer dat een gebruiker een nieuwe pagina opendoet krijgt hij eerst een scherm te zien met een mooie quote op en een reminder voor de todo list. Als de gebruiker al de opdrachten heeft gedaan, kan hij terug snel surfen zonder elke keer onze mooie pagina te zien. 
+Op de home page ( nieuwe tab ) komt een **todo** list met verschillende opdrachten. Deze opdrachten kunnen vanalles zijn maar moeten altijd offline worden gedaan. Je zal dus altijd weg van je computer zijn om een opdracht te voltooien. Opdrachten zijn simpel en zouden niet veel tijd in beslag nemen.
 
+Voorbeeld Opdrachten:
 
+- *'Ga naar buiten en wandel 10 minuten'*
+- *'Leer iemand nieuw kennen'*
+- *'Loop 10 keer de trap op en af'*
+- *...*
+
+Naast deze opdrachten staat een checkbox, gebruikers kunnen na het voltooien van de opdracht de checkbox aanvinken. Dagelijks krijgen ze 3 opdrachten, als ze deze allemaal hebben voltooid krijgen ze voor de rest van de dag de override bij het openen van een nieuwe site niet meer te zien.
+
+## To Do:
+
+- Chrome extension fixen
+- Override bij openen nieuwe pagina
+	- Extension coderen
+	- Html & Css
+	- Random quote + foto displayen
+- Todo scherm bij nieuw tablad
+	- Extension coderen
+	- Html & Css
+	- Todo lijst opvullen met random opdrachten
+	- Todo checkbox checken
+	- Override disabelen bij complete todos

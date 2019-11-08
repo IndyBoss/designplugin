@@ -36,3 +36,7 @@ Promo video: applicatie al eens live laten zien ( met hulp van premiere pro en o
 ## Author
 
 Made by Indy Bosschem & Lennert Slabbinck - 2019
+
+
+
+[YT tutorial](https://www.youtube.com/watch?v=vNb3P5KIxXw)

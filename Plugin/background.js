@@ -3,9 +3,13 @@ chrome.browserAction.onClicked.addListener(function(){
 })
 
 
-//setInterval(breaktime, 1800000);
+/*chrome.storage.local.get(['tasksCompleted'], function(result) {
+  if(result.tasksCompleted != true) {
+    setInterval(breaktime, 1800000);
+  }
+})*/
 
-setInterval(breaktime, 10000);
+//setInterval(breaktime, 10000);
 
 function breaktime() {
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {

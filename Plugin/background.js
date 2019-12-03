@@ -5,7 +5,7 @@ chrome.browserAction.onClicked.addListener(function(){
 
 //setInterval(breaktime, 1800000);
 
-//setInterval(breaktime, 10000);
+setInterval(breaktime, 10000);
 
 function breaktime() {
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {

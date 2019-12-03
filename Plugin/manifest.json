@@ -5,19 +5,28 @@
 
   // Recommended
   "description": "Get a breather once in a while with our handy extension. Learn to control your internet browsing and interact with the world.",
-  "browser_action": {"default_icon": "icon128.png"},
-  "icons": { "16": "icon16.png",
-           "64": "icon64.png",
-          "128": "icon128.png" },
+  "chrome_url_overrides":{
+    "newtab": "timedout.html"
+  },
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+          "tabs",
+          "storage",
+          "notifications",
+          "http://*/",
+          "https://*/"
+        ],
 
-  "content_scripts": [
-  {
-    "matches": [
-      "<all_urls>"
-    ],
-    "js": ["content.js"]
+  "background": {
+    "scripts":["background.js"],
+    "persistent": false
   }
-]
-
-
 }

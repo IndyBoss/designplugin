@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Timed Out</title>
+    <script src="popup.js"></script>
+  </head>
+  <style>
+    p { margin-top: 0}
+
+    button {
+      margin-top: 20px;
+      background-color: red;
+      color: white;
+      padding: 1em 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: none;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    button:active {
+      background-color: black;
+    }
+
+    body {
+      width: 200px;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .divider {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 15px;
+      width: 100%;
+      height: 1px;
+      padding-bottom: 0px;
+      border-bottom: 1px solid #aaa;
+    }
+
+    img {
+      width: 30px;
+      margin-right: 10px;
+      padding:0;
+    }
+  </style>
+  <body>
+    <div>
+      <img src="icon64.png" alt="Logo">
+      <h1>Timed Out</h1>
+    </div>
+    <div class="divider"> </div>
+    <p>A couple of tasks a day,</p>
+    <p>keeps the headaches away!</p>
+    <button type="button" name="button" id="checkTasks">Tasks</button>
+  </body>
+</html>

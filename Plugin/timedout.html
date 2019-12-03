@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TimedOut - Daily tasks</title>
+  </head>
+  <style>
+    body {
+      color: white;
+      font-size: 1.2em;
+
+      background-image: url('forest.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .invisible {
+      visibility: hidden;
+    }
+    .visible {
+      visibility: visible;
+    }
+    img {
+      width: 30px;
+      margin-right: 10px;
+      padding:0;
+    }
+    #tasksDone {
+      margin-top: 20px;
+      background-color: red;
+      color: white;
+      padding: 1em 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: none;
+    }
+    .taskBtn {
+      width: 40px;
+      height: 40px;
+      margin: 20px 10px 0 0;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 2px solid #fff;
+      border-radius: 10px;
+    }
+    .disabled {
+      pointer-events:none;
+      cursor: not-allowed;
+      opacity: 0.2;
+    }
+    .enabled {
+      pointer-events:auto;
+      cursor: allowed;
+      opacity: 1;
+    }
+
+
+
+
+
+    #title {
+      margin-top: 70px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .tasks {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top:30px;
+      width: 70%;
+    }
+    .column {
+      width: 50%;
+      margin-top:20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .R {
+      width: 30%;
+    }
+    .task {
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      align-items: left;
+      justify-content: left;
+    }
+    #end {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div id="title">
+      <img src="icon64.png" alt="Logo">
+      <h1>Timed Out</h1>
+    </div>
+    <h2>These are your tasks for today.</h2>
+    <div class="tasks">
+      <div class="column L">
+        <div class="task">
+          <button type="button" id="task1" class="taskBtn disabled"></button><h3 id="1"></h3>
+        </div>
+        <div class="task">
+          <button type="button" id="task3" class="taskBtn disabled"></button><h3 id="3"></h3>
+        </div>
+      </div>
+      <div class="column R">
+        <div class="task">
+          <button type="button" id="task2" class="taskBtn disabled"></button><h3 id="2"></h3>
+        </div>
+        <div class="task">
+          <button type="button" id="task4" class="taskBtn disabled"></button><h3 id="4"></h3>
+        </div>
+      </div>
+    </div>
+    <div id="end">
+      <button type="button" id="tasksDone" class="invisible">End day</button>
+      <h3 id="taskDoneMsg" class="invisible">Looks like you are done for the day!</h3>
+    </div>
+  </body>
+  <script src="checkTasks.js" charset="utf-8"></script>
+</html>
